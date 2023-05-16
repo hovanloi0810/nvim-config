@@ -1,0 +1,28 @@
+# Features and plugins
+
+- Plugin manager
+  - [Packer.nvim](https://github.com/wbthomason/packer.nvim)
+- Language server protocol
+  - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+- Dashboard
+  - [alpha-nvim](https://github.com/goolord/alpha-nvim)
+- Status line | bar
+  - [lualine](https://github.com/nvim-lualine/lualine.nvim)
+  - [bufferline](https://github.com/akinsho/bufferline.nvim)
+- Themes
+  - [one dark](https://github.com/navarasu/onedark.nvim)
+  - [catppuccin](https://github.com/catppuccin/nvim)
+- Color
+- Emmet
+- UI nvim-lsp progress
+- Git
+- Easy move
+- Color braker code
+- API nvim lua
+- Completion code
+- File browser
+- Find file
+- Terminal
+- Syntax highlight
+- Winbar
+- Mardown
