@@ -65,4 +65,4 @@ telescope.setup({
 	extensions_list = { "themes", "terms" },
 })
 
--- telescope.load_extension("fzf")
+telescope.load_extension("fzf")

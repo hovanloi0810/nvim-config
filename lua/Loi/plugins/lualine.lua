@@ -34,7 +34,8 @@ local diff = {
 		modified = " ",
 		removed = " ",
 	},
-	color = { bg = "#242735" },
+	-- color = { bg = "#242735" },
+	color = { bg = "#3D484D" },
 	separator = { left = "", right = "" },
 }
 
@@ -63,8 +64,9 @@ local modes = {
 local branch = {
 	"branch",
 	icon = "",
-	-- color = { bg = "#242735", fg = "#c296eb" },
-	separator = { left = "", right = "" },
+	color = { bg = "#56635f", fg = "#D3C6A" },
+	-- separator = { left = "", right = "" },
+	separator = { left = "", right = "" },
 }
 local spaces = function()
 	return "" .. vim.api.nvim_buf_get_option(0, "shiftwidth")
@@ -187,11 +189,11 @@ lualine.setup({
 					return ""
 				end,
 				separator = { left = "", right = "" },
-				-- color = { bg = "#f9e2af", fg = "#000000" },
+				color = { bg = "#56635f", fg = "#9DA9A0" },
 			},
 			{
 				lsp_progess,
-				-- color = { bg = "#313244", fg = "#cdd6f4" },
+				color = { bg = "#56635f", fg = "#9DA9A0" },
 			},
 		},
 		lualine_y = {
